@@ -10,7 +10,7 @@
 .front-section {
   background: url(assets/bg.svg) no-repeat center center fixed;
   background-size: cover;
-  height: max-content;
+  height: 100vh;
   color: #ffffff;
   padding: 1rem;
   z-index: -1;
@@ -189,6 +189,10 @@
   .hero-section{
     width: 100%;
     margin-top: 2rem;
+  }
+  
+  .front-section{
+    height: max-content;
   }
 }
 
